@@ -39,91 +39,91 @@ def caso_L():
     ret.agregar_nodo(0.0,0,100)         # Nodo 0  
     ret.agregar_nodo(0.0,2.0,100)       # Nodo 1
     ret.agregar_nodo(5.0,0,100)         # Nodo 2
-    ret.agregar_nodo(5.0,2.0,100)       
-    ret.agregar_nodo(10.0,0,100)        
-    ret.agregar_nodo(10.0,2.0,100)      
-    ret.agregar_nodo(15.0,0,100)        
-    ret.agregar_nodo(15.0,2.0,100)      
-    ret.agregar_nodo(20.0,0,100)        
-    ret.agregar_nodo(20.0,2.0,100)      
-    ret.agregar_nodo(25.0,0,100)        
-    ret.agregar_nodo(25.0,2.0,100)      
-    ret.agregar_nodo(30.0,0,100)        
-    ret.agregar_nodo(30.0,2.0,100)      
-    ret.agregar_nodo(35.0,0,100)        
-    ret.agregar_nodo(35.0,2.0,100)      
-    ret.agregar_nodo(40.0,0,100)        
-    ret.agregar_nodo(40.0,2.0,100)      
-    ret.agregar_nodo(45.0,0,100)        
-    ret.agregar_nodo(45.0,2.0,100)      
-    ret.agregar_nodo(50.0,0,100)        
-    ret.agregar_nodo(50.0,2.0,100)      
-    ret.agregar_nodo(55.0,0,100)        
-    ret.agregar_nodo(55.0,2.0,100)      
-    ret.agregar_nodo(60.0,0,100)        
-    ret.agregar_nodo(60.0,2.0,100)      
-    ret.agregar_nodo(65.0,0,100)
-    ret.agregar_nodo(65.0,2.0,100)
-    ret.agregar_nodo(70.0,0,100)
-    ret.agregar_nodo(70.0,2.0,100)
-    ret.agregar_nodo(75.0,0,100)
-    ret.agregar_nodo(75.0,2.0,100)
-    ret.agregar_nodo(80.0,0,100)
-    ret.agregar_nodo(80.0,2.0,100)
-    ret.agregar_nodo(85.0,0,100)
-    ret.agregar_nodo(85.0,2.0,100)
-    ret.agregar_nodo(90.0,0,100)
-    ret.agregar_nodo(90.0,2.0,100)
-    ret.agregar_nodo(95.0,0,100)
-    ret.agregar_nodo(95.0,2.0,100)
-    ret.agregar_nodo(100.0,0,100)
-    ret.agregar_nodo(100.0,2.0,100)
-    ret.agregar_nodo(105.0,0,100)
-    ret.agregar_nodo(105.0,2.0,100)
-    ret.agregar_nodo(110.0,0,100)
-    ret.agregar_nodo(110.0,2.0,100)
-    ret.agregar_nodo(115.0,0,100)
-    ret.agregar_nodo(115.0,2.0,100)
-    ret.agregar_nodo(120.0,0,100)
-    ret.agregar_nodo(120.0,2.0,100)
-    ret.agregar_nodo(125.0,0,100)
-    ret.agregar_nodo(125.0,2.0,100)
-    ret.agregar_nodo(130.0,0,100)
-    ret.agregar_nodo(130.0,2.0,100)
-    ret.agregar_nodo(135.0,0,100)
-    ret.agregar_nodo(135.0,2.0,100)
-    ret.agregar_nodo(140.0,0,100)
-    ret.agregar_nodo(140.0,2.0,100)
-    ret.agregar_nodo(145.0,0,100)
-    ret.agregar_nodo(145.0,2.0,100)
-    ret.agregar_nodo(150.0,0,100)
-    ret.agregar_nodo(150.0,2.0,100)
-    ret.agregar_nodo(155.0,0,100)
-    ret.agregar_nodo(155.0,2.0,100)
-    ret.agregar_nodo(160.0,0,100)
-    ret.agregar_nodo(160.0,2.0,100)
-    ret.agregar_nodo(165.0,0,100)
-    ret.agregar_nodo(165.0,2.0,100)
-    ret.agregar_nodo(170.0,0,100)
-    ret.agregar_nodo(170.0,2.0,100)
-    ret.agregar_nodo(175.0,0,100)
-    ret.agregar_nodo(175.0,2.0,100)
-    ret.agregar_nodo(180.0,0,100)
-    ret.agregar_nodo(180.0,2.0,100)
-    ret.agregar_nodo(185.0,0,100)
-    ret.agregar_nodo(185.0,2.0,100)
-    ret.agregar_nodo(190.0,0,100)
-    ret.agregar_nodo(190.0,2.0,100)
-    ret.agregar_nodo(195.0,0,100)
-    ret.agregar_nodo(195.0,2.0,100)
-    ret.agregar_nodo(200.0,0,100)
-    ret.agregar_nodo(200.0,2.0,100)
-    ret.agregar_nodo(205.0,0,100)
-    ret.agregar_nodo(205.0,2.0,100)
-    ret.agregar_nodo(210.0,0,100)       
-    ret.agregar_nodo(210.0,2.0,100)     
-    ret.agregar_nodo(215.0,0,100)       # Nodo 87
-    ret.agregar_nodo(215.0,2.0,100)     # Nodo 88
+    ret.agregar_nodo(5.0,2.0,100)       # Nodo 3
+    ret.agregar_nodo(10.0,0,100)        # Nodo 4
+    ret.agregar_nodo(10.0,2.0,100)      # Nodo 5
+    ret.agregar_nodo(15.0,0,100)        # Nodo 6
+    ret.agregar_nodo(15.0,2.0,100)      # Nodo 7
+    ret.agregar_nodo(20.0,0,100)        # Nodo 8
+    ret.agregar_nodo(20.0,2.0,100)      # Nodo 9
+    ret.agregar_nodo(25.0,0,100)        # Nodo 10
+    ret.agregar_nodo(25.0,2.0,100)      # Nodo 11
+    ret.agregar_nodo(30.0,0,100)        # Nodo 12
+    ret.agregar_nodo(30.0,2.0,100)      # Nodo 13
+    ret.agregar_nodo(35.0,0,100)        # Nodo 14
+    ret.agregar_nodo(35.0,2.0,100)      # Nodo 15
+    ret.agregar_nodo(40.0,0,100)        # Nodo 16
+    ret.agregar_nodo(40.0,2.0,100)      # Nodo 17
+    ret.agregar_nodo(45.0,0,100)        # Nodo 18
+    ret.agregar_nodo(45.0,2.0,100)      # Nodo 19
+    ret.agregar_nodo(50.0,0,100)        # Nodo 20
+    ret.agregar_nodo(50.0,2.0,100)      # Nodo 21
+    ret.agregar_nodo(55.0,0,100)        # Nodo 22
+    ret.agregar_nodo(55.0,2.0,100)      # Nodo 23
+    ret.agregar_nodo(60.0,0,100)        # Nodo 24
+    ret.agregar_nodo(60.0,2.0,100)      # Nodo 25
+    ret.agregar_nodo(65.0,0,100)        # Nodo 26
+    ret.agregar_nodo(65.0,2.0,100)      # Nodo 27
+    ret.agregar_nodo(70.0,0,100)        # Nodo 28
+    ret.agregar_nodo(70.0,2.0,100)      # Nodo 29
+    ret.agregar_nodo(75.0,0,100)        # Nodo 30
+    ret.agregar_nodo(75.0,2.0,100)      # Nodo 31
+    ret.agregar_nodo(80.0,0,100)        # Nodo 32
+    ret.agregar_nodo(80.0,2.0,100)      # Nodo 33
+    ret.agregar_nodo(85.0,0,100)        # Nodo 34
+    ret.agregar_nodo(85.0,2.0,100)      # Nodo 35
+    ret.agregar_nodo(90.0,0,100)        # Nodo 36
+    ret.agregar_nodo(90.0,2.0,100)      # Nodo 37
+    ret.agregar_nodo(95.0,0,100)        # Nodo 38
+    ret.agregar_nodo(95.0,2.0,100)      # Nodo 39
+    ret.agregar_nodo(100.0,0,100)       # Nodo 40
+    ret.agregar_nodo(100.0,2.0,100)     # Nodo 41
+    ret.agregar_nodo(105.0,0,100)       # Nodo 42
+    ret.agregar_nodo(105.0,2.0,100)     # Nodo 43
+    ret.agregar_nodo(110.0,0,100)       # Nodo 44
+    ret.agregar_nodo(110.0,2.0,100)     # Nodo 45
+    ret.agregar_nodo(115.0,0,100)       # Nodo 46
+    ret.agregar_nodo(115.0,2.0,100)     # Nodo 47
+    ret.agregar_nodo(120.0,0,100)       # Nodo 48
+    ret.agregar_nodo(120.0,2.0,100)     # Nodo 49
+    ret.agregar_nodo(125.0,0,100)       # Nodo 50
+    ret.agregar_nodo(125.0,2.0,100)     # Nodo 51
+    ret.agregar_nodo(130.0,0,100)       # Nodo 52
+    ret.agregar_nodo(130.0,2.0,100)     # Nodo 53
+    ret.agregar_nodo(135.0,0,100)       # Nodo 54
+    ret.agregar_nodo(135.0,2.0,100)     # Nodo 55
+    ret.agregar_nodo(140.0,0,100)       # Nodo 56
+    ret.agregar_nodo(140.0,2.0,100)     # Nodo 57
+    ret.agregar_nodo(145.0,0,100)       # Nodo 58
+    ret.agregar_nodo(145.0,2.0,100)     # Nodo 59
+    ret.agregar_nodo(150.0,0,100)       # Nodo 60
+    ret.agregar_nodo(150.0,2.0,100)     # Nodo 61
+    ret.agregar_nodo(155.0,0,100)       # Nodo 62
+    ret.agregar_nodo(155.0,2.0,100)     # Nodo 63
+    ret.agregar_nodo(160.0,0,100)       # Nodo 64
+    ret.agregar_nodo(160.0,2.0,100)     # Nodo 65
+    ret.agregar_nodo(165.0,0,100)       # Nodo 66
+    ret.agregar_nodo(165.0,2.0,100)     # Nodo 67
+    ret.agregar_nodo(170.0,0,100)       # Nodo 68
+    ret.agregar_nodo(170.0,2.0,100)     # Nodo 69
+    ret.agregar_nodo(175.0,0,100)       # Nodo 70
+    ret.agregar_nodo(175.0,2.0,100)     # Nodo 71
+    ret.agregar_nodo(180.0,0,100)       # Nodo 72
+    ret.agregar_nodo(180.0,2.0,100)     # Nodo 73
+    ret.agregar_nodo(185.0,0,100)       # Nodo 74
+    ret.agregar_nodo(185.0,2.0,100)     # Nodo 75
+    ret.agregar_nodo(190.0,0,100)       # Nodo 76
+    ret.agregar_nodo(190.0,2.0,100)     # Nodo 77
+    ret.agregar_nodo(195.0,0,100)       # Nodo 78
+    ret.agregar_nodo(195.0,2.0,100)     # Nodo 79
+    ret.agregar_nodo(200.0,0,100)       # Nodo 80
+    ret.agregar_nodo(200.0,2.0,100)     # Nodo 81
+    ret.agregar_nodo(205.0,0,100)       # Nodo 82
+    ret.agregar_nodo(205.0,2.0,100)     # Nodo 83
+    ret.agregar_nodo(210.0,0,100)       # Nodo 84   
+    ret.agregar_nodo(210.0,2.0,100)     # Nodo 85 
+    ret.agregar_nodo(215.0,0,100)       # Nodo 86
+    ret.agregar_nodo(215.0,2.0,100)     # Nodo 87
 
 
 #   Nodos Estructura
