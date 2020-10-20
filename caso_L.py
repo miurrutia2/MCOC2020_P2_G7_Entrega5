@@ -362,36 +362,14 @@ def caso_L():
 #   Barras Estructura general
 
 
-
+    for i in range(2,86):
+        ret.agregar_fuerza(i,2,-2*F)
+        
+    ret.agregar_fuerza(0,2,-F)
+    ret.agregar_fuerza(1,2,-F)
+    ret.agregar_fuerza(86,2,-F)
+    ret.agregar_fuerza(87,2,-F)
 
 
     
     return ret
-
-ret = caso_L()
-
-peso = ret.calcular_peso_total()
-
-print(f"peso = {peso}")
-
-
-ret.ensamblar_sistema()
-print (ret)
-''' ret.resolver_sistema()
-f = ret.recuperar_fuerzas()
-fu = ret.recuperar_factores_de_utilizacion(f)
-
-print (ret)
-
-ver_reticulado_3d(ret, 
-    opciones_nodos = {
-        "usar_posicion_deformada": True,
-        "factor_amplificacion_deformada": 30.,
-    },
-    opciones_barras = {
-        "color_barras_por_dato": True,
-        "ver_numeros_de_barras": False,
-        "ver_dato_en_barras": True,
-        "dato": f,
-        "color_fondo": [1,1,1,0.4]
-    }) '''
