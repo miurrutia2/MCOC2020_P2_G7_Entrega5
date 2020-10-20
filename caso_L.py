@@ -15,6 +15,7 @@ def caso_L():
     cm = 0.01*m
     mm = 0.001*m
     KN = 1000*N
+    kgf = 9.80665*N
     Pa = N / m**2
     KPa = 1000*Pa
     MPa = 1000*KPa
@@ -364,7 +365,7 @@ def caso_L():
 
     for i in range(2,86):
         ret.agregar_fuerza(i,2,-2*F)
-        
+
     ret.agregar_fuerza(0,2,-F)
     ret.agregar_fuerza(1,2,-F)
     ret.agregar_fuerza(86,2,-F)
