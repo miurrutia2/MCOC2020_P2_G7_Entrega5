@@ -667,7 +667,7 @@ def caso_L():
     ret.agregar_barra(Barra(21, 141, *props))
 
     ret.agregar_barra(Barra(22, 140, *props))
-    ret.agregar_barra(Barra(13, 141, *props))
+    ret.agregar_barra(Barra(23, 141, *props))
 
     ret.agregar_barra(Barra(24, 142, *props))
     ret.agregar_barra(Barra(25, 143, *props))
