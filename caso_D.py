@@ -22,7 +22,7 @@ def caso_D():
     
     #Parametros
     L = 5.0 * m
-    B = 20.0 * m
+    B = 2.0 * m
     H = 3.5 * m
 
     #Inicializar modelo
@@ -232,7 +232,7 @@ def caso_D():
     
 #   Barras 
 
-    props = [8*cm, 5*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
+    props = [6*cm, 5*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
  
 #    Barras Tablero
 
@@ -662,7 +662,7 @@ def caso_D():
     ret.agregar_barra(Barra(21, 141, *props))
 
     ret.agregar_barra(Barra(22, 140, *props))
-    ret.agregar_barra(Barra(13, 141, *props))
+    ret.agregar_barra(Barra(23, 141, *props))
 
     ret.agregar_barra(Barra(24, 142, *props))
     ret.agregar_barra(Barra(25, 143, *props))
@@ -761,11 +761,6 @@ def caso_D():
 
 
 
-
-
-
-
-
     # Restricciones
 
 
@@ -836,4 +831,3 @@ def caso_D():
 
     
     return ret
-
