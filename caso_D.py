@@ -22,7 +22,7 @@ def caso_D():
     
     #Parametros
     L = 5.0 * m
-    B = 6.0 * m
+    B = 20.0 * m
     H = 3.5 * m
 
     #Inicializar modelo
@@ -119,7 +119,7 @@ def caso_D():
     ret.agregar_nodo(210.0,0,100)       # Nodo 84   
     ret.agregar_nodo(210.0,B,100)     # Nodo 85 
     ret.agregar_nodo(215.0,0,100)       # Nodo 86
-    ret.agregar_nodo(215.0,B,100)     # Nodo 87     (punto 28)
+    ret.agregar_nodo(215.0,B,100)     # Nodo 87     (punto 28) 
 
 
 #   Nodos Estructura
@@ -174,6 +174,60 @@ def caso_D():
 
     ret.agregar_nodo(12,0,97)       #Nodo 130
     ret.agregar_nodo(12,B,97)       #Nodo 131
+
+    ret.agregar_nodo(19,0,97)       #Nodo 132
+    ret.agregar_nodo(19,B,97)       #Nodo 133
+
+    ret.agregar_nodo(22,0,97)       # Nodo 134
+    ret.agregar_nodo(22,B,97)       # Nodo 135
+
+    ret.agregar_nodo(32,0,97)       # Nodo 136
+    ret.agregar_nodo(32,B,97)       # Nodo 137
+
+    ret.agregar_nodo(42,0,97)       # Nodo 138
+    ret.agregar_nodo(42,B,97)       # Nodo 139          
+
+    ret.agregar_nodo(52,0,97)       # Nodo 140
+    ret.agregar_nodo(52,B,97)       # Nodo 141
+
+    ret.agregar_nodo(62,0,97)       # Nodo 142
+    ret.agregar_nodo(62,B,97)       # Nodo 143
+
+    ret.agregar_nodo(72,0,97)       # Nodo 144
+    ret.agregar_nodo(72,B,97)       # Nodo 145
+
+    ret.agregar_nodo(82,0,97)       # Nodo 146
+    ret.agregar_nodo(82,B,97)       # Nodo 147
+
+    ret.agregar_nodo(92,0,97)       # Nodo 148
+    ret.agregar_nodo(92,B,97)       # Nodo 149
+
+    ret.agregar_nodo(174,0,97)       # Nodo 150
+    ret.agregar_nodo(174,B,97)       # Nodo 151
+
+    ret.agregar_nodo(162,0,97)       # Nodo 152
+    ret.agregar_nodo(162,B,97)       # Nodo 153
+
+    ret.agregar_nodo(152,0,97)       # Nodo 154
+    ret.agregar_nodo(152,B,97)       # Nodo 155
+
+    ret.agregar_nodo(142,0,97)       # Nodo 156
+    ret.agregar_nodo(142,B,97)       # Nodo 157
+
+    ret.agregar_nodo(188,0,93)       # Nodo 158     (punto 26)
+    ret.agregar_nodo(188,B,93)       # Nodo 159
+
+    ret.agregar_nodo(188,0,97)       # Nodo 160
+    ret.agregar_nodo(188,B,97)       # Nodo 161
+
+    ret.agregar_nodo(205,0,95)       # Nodo 162     (punto 27)
+    ret.agregar_nodo(205,B,95)       # Nodo 163
+
+    ret.agregar_nodo(205,0,97)       # Nodo 164
+    ret.agregar_nodo(205,B,97)       # Nodo 165
+
+
+
 
     
 #   Barras 
@@ -406,6 +460,7 @@ def caso_D():
 
 #   Barras Estructura general
 
+    #barras longitudinales estructura arco
 
     ret.agregar_barra(Barra(88, 90, *props))
     ret.agregar_barra(Barra(89, 91, *props))
@@ -441,8 +496,10 @@ def caso_D():
     ret.agregar_barra(Barra(119, 121, *props))
 
 
-    ret.agregar_barra(Barra(122, 2, *props))
-    ret.agregar_barra(Barra(123, 3, *props))
+    #barras que conforman la malla sobre el arco
+
+    ret.agregar_barra(Barra(122, 126, *props))
+    ret.agregar_barra(Barra(123, 127, *props))
 
     ret.agregar_barra(Barra(124, 126, *props))
     ret.agregar_barra(Barra(125, 127, *props))
@@ -450,8 +507,267 @@ def caso_D():
     ret.agregar_barra(Barra(128, 130, *props))
     ret.agregar_barra(Barra(129, 131, *props))
 
+    ret.agregar_barra(Barra(88, 132, *props))
+    ret.agregar_barra(Barra(89, 133, *props))    
+
+    ret.agregar_barra(Barra(90, 134, *props))
+    ret.agregar_barra(Barra(91, 135, *props))
+
+    ret.agregar_barra(Barra(92, 136, *props))
+    ret.agregar_barra(Barra(93, 137, *props))
+
+    ret.agregar_barra(Barra(94, 138, *props))
+    ret.agregar_barra(Barra(95, 139, *props))
+
+    ret.agregar_barra(Barra(96, 140, *props))
+    ret.agregar_barra(Barra(97, 141, *props))
+
+    ret.agregar_barra(Barra(98, 142, *props))
+    ret.agregar_barra(Barra(99, 143, *props))
+
+    ret.agregar_barra(Barra(100, 144, *props))
+    ret.agregar_barra(Barra(101, 145, *props))
+
+    ret.agregar_barra(Barra(102, 146, *props))
+    ret.agregar_barra(Barra(103, 147, *props))
+
+    ret.agregar_barra(Barra(104, 148, *props))
+    ret.agregar_barra(Barra(105, 149, *props))
+
+    ret.agregar_barra(Barra(122, 126, *props))
+    ret.agregar_barra(Barra(123, 127, *props))
+
+    ret.agregar_barra(Barra(126, 130, *props))
+    ret.agregar_barra(Barra(127, 131, *props))
+
+    ret.agregar_barra(Barra(130, 132, *props))
+    ret.agregar_barra(Barra(131, 133, *props))
+
+    ret.agregar_barra(Barra(132, 134, *props))
+    ret.agregar_barra(Barra(133, 135, *props))
+
+    ret.agregar_barra(Barra(134, 136, *props))
+    ret.agregar_barra(Barra(133, 137, *props))
+
+    ret.agregar_barra(Barra(136, 138, *props))
+    ret.agregar_barra(Barra(137, 139, *props))
+
+    ret.agregar_barra(Barra(138, 140, *props))
+    ret.agregar_barra(Barra(139, 141, *props))
+
+    ret.agregar_barra(Barra(140, 142, *props))
+    ret.agregar_barra(Barra(141, 143, *props))
+
+    ret.agregar_barra(Barra(142, 144, *props))
+    ret.agregar_barra(Barra(143, 145, *props))
+
+    ret.agregar_barra(Barra(144, 146, *props))
+    ret.agregar_barra(Barra(145, 147, *props))
+
+    ret.agregar_barra(Barra(146, 148, *props))
+    ret.agregar_barra(Barra(147, 149, *props))
+
+    ret.agregar_barra(Barra(150, 120, *props))
+    ret.agregar_barra(Barra(151, 121, *props))
+
+    ret.agregar_barra(Barra(152, 118, *props))
+    ret.agregar_barra(Barra(153, 119, *props))
+
+    ret.agregar_barra(Barra(154, 116, *props))
+    ret.agregar_barra(Barra(155, 117, *props))
+
+    ret.agregar_barra(Barra(156, 114, *props))
+    ret.agregar_barra(Barra(157, 115, *props))
+
+    ret.agregar_barra(Barra(150, 152, *props))
+    ret.agregar_barra(Barra(151, 153, *props))
+
+    ret.agregar_barra(Barra(152, 154, *props))
+    ret.agregar_barra(Barra(153, 155, *props))
+
+    ret.agregar_barra(Barra(154, 156, *props))
+    ret.agregar_barra(Barra(155, 157, *props))
+
+    ret.agregar_barra(Barra(156, 112, *props))
+    ret.agregar_barra(Barra(157, 113, *props))
+
+    ret.agregar_barra(Barra(148, 106, *props))
+    ret.agregar_barra(Barra(149, 107, *props))
+
+    ret.agregar_barra(Barra(158, 160, *props))
+    ret.agregar_barra(Barra(159, 161, *props))
+
+    ret.agregar_barra(Barra(162, 164, *props))
+    ret.agregar_barra(Barra(163, 165, *props))
+
+    ret.agregar_barra(Barra(164, 160, *props))
+    ret.agregar_barra(Barra(165, 161, *props))
+
+    ret.agregar_barra(Barra(160, 150, *props))
+    ret.agregar_barra(Barra(161, 151, *props))
+
+
+    #barras que unen ambas caras del arco
+
+    ret.agregar_barra(Barra(90, 91, *props))
+    ret.agregar_barra(Barra(92, 93, *props))
+    ret.agregar_barra(Barra(94, 95, *props))
+    ret.agregar_barra(Barra(96, 97, *props))
+    ret.agregar_barra(Barra(98, 99, *props))
+    ret.agregar_barra(Barra(100, 101, *props))
+    ret.agregar_barra(Barra(102, 103, *props))
+    ret.agregar_barra(Barra(104, 105, *props))
+    ret.agregar_barra(Barra(106, 107, *props))
+    ret.agregar_barra(Barra(108, 109, *props))
+    ret.agregar_barra(Barra(110, 111, *props))
+    ret.agregar_barra(Barra(112, 113, *props))
+    ret.agregar_barra(Barra(114, 115, *props))
+    ret.agregar_barra(Barra(116, 117, *props))
+    ret.agregar_barra(Barra(118, 119, *props))
+
+
+    #barras que unen tablero con estructura inferior
+
+    ret.agregar_barra(Barra(2, 126, *props))
+    ret.agregar_barra(Barra(3, 127, *props))
+
+    ret.agregar_barra(Barra(4, 126, *props))
+    ret.agregar_barra(Barra(5, 127, *props))
+
+    ret.agregar_barra(Barra(4, 130, *props))
+    ret.agregar_barra(Barra(5, 131, *props))
+
+    ret.agregar_barra(Barra(6, 130, *props))
+    ret.agregar_barra(Barra(7, 131, *props))
+
+    ret.agregar_barra(Barra(8, 134, *props))
+    ret.agregar_barra(Barra(9, 135, *props))
+
+    ret.agregar_barra(Barra(10, 134, *props))
+    ret.agregar_barra(Barra(11, 135, *props))
+
+    ret.agregar_barra(Barra(12, 136, *props))
+    ret.agregar_barra(Barra(13, 137, *props))
+
+    ret.agregar_barra(Barra(14, 136, *props))
+    ret.agregar_barra(Barra(15, 137, *props))
+
+    ret.agregar_barra(Barra(16, 138, *props))
+    ret.agregar_barra(Barra(17, 139, *props))
+
+    ret.agregar_barra(Barra(18, 138, *props))
+    ret.agregar_barra(Barra(19, 139, *props))
+
+    ret.agregar_barra(Barra(20, 140, *props))
+    ret.agregar_barra(Barra(21, 141, *props))
+
+    ret.agregar_barra(Barra(22, 140, *props))
+    ret.agregar_barra(Barra(13, 141, *props))
+
+    ret.agregar_barra(Barra(24, 142, *props))
+    ret.agregar_barra(Barra(25, 143, *props))
+
+    ret.agregar_barra(Barra(26, 142, *props))
+    ret.agregar_barra(Barra(27, 143, *props))
+
+    ret.agregar_barra(Barra(28, 144, *props))
+    ret.agregar_barra(Barra(29, 145, *props))
+
+    ret.agregar_barra(Barra(30, 144, *props))
+    ret.agregar_barra(Barra(31, 145, *props))
+
+    ret.agregar_barra(Barra(32, 146, *props))
+    ret.agregar_barra(Barra(33, 147, *props))
+
+    ret.agregar_barra(Barra(34, 146, *props))
+    ret.agregar_barra(Barra(35, 147, *props))
+
+    ret.agregar_barra(Barra(36, 148, *props))
+    ret.agregar_barra(Barra(37, 149, *props))
+
+    ret.agregar_barra(Barra(38, 148, *props))
+    ret.agregar_barra(Barra(37, 149, *props))
+
+    ret.agregar_barra(Barra(40, 106, *props))
+    ret.agregar_barra(Barra(41, 107, *props))
+
+    ret.agregar_barra(Barra(42, 106, *props))
+    ret.agregar_barra(Barra(43, 107, *props))
+
+    ret.agregar_barra(Barra(44, 108, *props))
+    ret.agregar_barra(Barra(45, 109, *props))
+
+    ret.agregar_barra(Barra(46, 108, *props))
+    ret.agregar_barra(Barra(47, 109, *props))
+
+    ret.agregar_barra(Barra(48, 110, *props))
+    ret.agregar_barra(Barra(49, 111, *props))
+
+    ret.agregar_barra(Barra(50, 110, *props))
+    ret.agregar_barra(Barra(51, 111, *props))
+
+    ret.agregar_barra(Barra(52, 112, *props))
+    ret.agregar_barra(Barra(53, 113, *props))
+
+    ret.agregar_barra(Barra(54, 112, *props))
+    ret.agregar_barra(Barra(55, 113, *props))
+
+    ret.agregar_barra(Barra(56, 156, *props))
+    ret.agregar_barra(Barra(57, 157, *props))
+
+    ret.agregar_barra(Barra(58, 156, *props))
+    ret.agregar_barra(Barra(59, 157, *props))
+
+    ret.agregar_barra(Barra(60, 154, *props))
+    ret.agregar_barra(Barra(61, 155, *props))
+
+    ret.agregar_barra(Barra(62, 154, *props))
+    ret.agregar_barra(Barra(63, 155, *props))
+
+    ret.agregar_barra(Barra(64, 152, *props))
+    ret.agregar_barra(Barra(65, 153, *props))
+
+    ret.agregar_barra(Barra(66, 152, *props))
+    ret.agregar_barra(Barra(67, 153, *props))
+
+    ret.agregar_barra(Barra(68, 150, *props))
+    ret.agregar_barra(Barra(69, 151, *props))
+
+    ret.agregar_barra(Barra(70, 150, *props))
+    ret.agregar_barra(Barra(71, 151, *props))
+
+    ret.agregar_barra(Barra(72, 150, *props))
+    ret.agregar_barra(Barra(73, 151, *props))
+ 
+    ret.agregar_barra(Barra(74, 160, *props))
+    ret.agregar_barra(Barra(75, 161, *props))
+
+    ret.agregar_barra(Barra(76, 160, *props))
+    ret.agregar_barra(Barra(77, 161, *props))
+
+    ret.agregar_barra(Barra(78, 160, *props))
+    ret.agregar_barra(Barra(79, 161, *props))
+
+    ret.agregar_barra(Barra(80, 164, *props))
+    ret.agregar_barra(Barra(81, 165, *props))
+
+    ret.agregar_barra(Barra(82, 164, *props))
+    ret.agregar_barra(Barra(83, 165, *props))
+
+    ret.agregar_barra(Barra(84, 164, *props))
+    ret.agregar_barra(Barra(85, 165, *props))
+
+
+
+
+
+
+
+
+
 
     # Restricciones
+
 
     ret.agregar_restriccion(0, 0, 0)
     ret.agregar_restriccion(0, 1, 0)
@@ -501,39 +817,23 @@ def caso_D():
     ret.agregar_restriccion(125, 1, 0)
     ret.agregar_restriccion(125, 2, 0)
 
+    ret.agregar_restriccion(128, 0, 0)
+    ret.agregar_restriccion(128, 1, 0)
+    ret.agregar_restriccion(128, 2, 0) 
 
+    ret.agregar_restriccion(129, 0, 0)
+    ret.agregar_restriccion(129, 1, 0)
+    ret.agregar_restriccion(129, 2, 0) 
 
+    ret.agregar_restriccion(158, 0, 0)
+    ret.agregar_restriccion(158, 1, 0)
+    ret.agregar_restriccion(158, 2, 0)
 
-
+    ret.agregar_restriccion(162, 0, 0)
+    ret.agregar_restriccion(162, 1, 0)
+    ret.agregar_restriccion(162, 2, 0) 
 
 
     
     return ret
 
-ret = caso_D()
-
-peso = ret.calcular_peso_total()
-
-print(f"peso = {peso}")
-
-
-ret.ensamblar_sistema()
-print (ret)
-''' ret.resolver_sistema()
-f = ret.recuperar_fuerzas()
-fu = ret.recuperar_factores_de_utilizacion(f)
-
-print (ret)
-
-ver_reticulado_3d(ret, 
-    opciones_nodos = {
-        "usar_posicion_deformada": True,
-        "factor_amplificacion_deformada": 30.,
-    },
-    opciones_barras = {
-        "color_barras_por_dato": True,
-        "ver_numeros_de_barras": False,
-        "ver_dato_en_barras": True,
-        "dato": f,
-        "color_fondo": [1,1,1,0.4]
-    }) '''
