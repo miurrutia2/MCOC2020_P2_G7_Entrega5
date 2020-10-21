@@ -144,7 +144,7 @@ def caso_L():
     
 #   Barras 
 
-    props = [8*cm, 5*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
+    props = [2*cm, 1*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
  
 #    Barras Tablero
 
@@ -386,7 +386,8 @@ def caso_L():
     for i in np.arange(134,171,2):
         ret.agregar_barra(Barra(i, i+1, *props))
 
-
+    ret.agregar_barra(Barra(86,170,*props))
+    ret.agregar_barra(Barra(87,171,*props))
     ret.agregar_barra(Barra(130, 172, *props))
     ret.agregar_barra(Barra(131, 172, *props))
     ret.agregar_barra(Barra(132, 173, *props))
