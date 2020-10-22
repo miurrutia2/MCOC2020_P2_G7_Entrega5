@@ -1,3 +1,4 @@
+
 # MCOC2020_P2_G7_Entrega5
 2
 ​
@@ -55,3 +56,4 @@ Finalmente, llegamos a que al aumentar el radio a 2 cm, el diseño si cumplia co
 ![](Imagenes/Diseño_R2.png)
 29
 ​
+
